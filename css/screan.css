@@ -1,0 +1,76 @@
+@media screen and (max-width: 1051px) {
+  .links a {
+    font-size: small;
+  }
+  .container- {
+    width: 950px;
+  }
+  .con-matches {
+    margin: 0 auto;
+    width: 675px;
+  }
+  .main-one {
+    margin: 20px auto;
+    width: 75%;
+    flex-direction: column;
+  }
+  .top-set {
+    margin: 0 auto;
+    width: 75%;
+  }
+  .card-news {
+    width: 40%;
+  }
+  .lega-card {
+    width: 40%;
+    margin: 10px;
+  }
+  .lega {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 971px) {
+  .container- {
+    border: 0;
+    width: 850px;
+  }
+  .links {
+    display: none;
+  }
+  nav .center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .container- {
+    width: 100%;
+  }
+  .match {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container- {
+    width: 480px;
+  }
+  .matches .match {
+    width: 420px;
+  }
+  .main-one{
+    width: 95%;
+  }
+
+  .con-matches {
+    width: 450px;
+    margin: auto;
+  }
+  .card-news {
+    width: 60%;
+  }
+  .lega-card {
+    width: 60%;
+    margin: 10px;
+  }
+}

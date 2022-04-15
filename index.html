@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الرياضي الاول في الشرق الاوسط</title>
+    
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="css/screan.css">
+
+</head>
+<body>
+    <nav class="header bg-black position-fixed top-0  w-100">
+         <div class="menu"> 
+            <a href="" ><i class="fa fa-bars"></i></a>
+         </div>
+         <div class="center-nav overflow-hidden center"> 
+             <img src="images/logo.png" width="150px" height="100%" class="p-2">
+             <div class="links">
+                 <a href="">المباريات</a>
+                 <a href="">الاخبار</a>
+                 <a href="">دوريات وبطولات</a>
+                 <a href="">مالتيميديا</a>
+                 <a href="">اخر الانتقالات</a>
+                 <a href="">المحترفون</a>
+                 <a href="" class="position-relative">مسابقه التوقعات
+                     <p class="badge p-0 bg-success position-absolute top-0 start-0">جديد</p>
+                 </a>
+
+             </div><!-- end links-->
+         </div>
+         <div class="social">
+             <a href="#" ><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#" class="search"><i class="fas fa-search"></i></a>
+         </div>
+    </nav>
+    <div class="container-"> 
+          <div class="top  row mt-5 p-1 position-relative "> 
+                <div class="col-12  text-center fs-5 ">
+                    <button class="btn ">مباريات الامس</button>
+                    <button class="btn bg-white fs-5">مباريات اليوم</button>
+                    <button class="btn">مباريات الغد </button>
+                </div><!-- end col-12-->
+                <div class=" text-start position-absolute top-0 start-0 h-100">
+                    <button class="btn btn-primary p-0 mt-2"> جميع المباريات ❯ </button>
+                </div>
+          </div><!-- end top-->
+
+          <div class="con-matches ">
+               <div onclick="left()" class="right" id="leftScroll">❮</div>
+               <div class="main-match" id="mainMatches">
+                     <div class="matches" id="matches">
+
+                           <div class="match" id="match">
+                                <div class="teamA">
+                                      <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                      <p >الاهلي</p>
+                                </div>
+                                <div class="detals">
+                                       <p>دوري ابطال افريقيا </p>
+                                       <span>-</span> <span>-</span>
+                                       <p class="border border-primary ">لم تبدا</p>
+                                       <p>15:00</p>
+                                </div>
+                                <div class="teamB">
+                                    <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                    <p>الاهلي</p>
+                                </div>
+                           </div><!-- end match-->
+
+                           <div class="match">
+                            <div class="teamA">
+                                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                <p>الاهلي</p>
+                            </div>
+                            <div class="detals">
+                                   <p>دوري ابطال افريقيا </p>
+                                   <span>-</span> <span>-</span>
+                                   <p class="border border-primary p-0">لم تبدا</p>
+                                   <p>15:00</p>
+                            </div>
+                            <div class="teamB">
+                                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                <p>الاهلي</p>
+                            </div>
+                       </div><!-- end match-->
+
+                       <div class="match">
+                        <div class="teamA">
+                            <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                            <p>الاهلي</p>
+                        </div>
+                        <div class="detals">
+                               <p>دوري ابطال افريقيا </p>
+                               <span>-</span> <span>-</span>
+                               <p class="border border-primary p-0">لم تبدا</p>
+                               <p>15:00</p>
+                        </div>
+                        <div class="teamB">
+                            <img src="images/sc/AlHilal.png" alt="" width="35px" height="35px">
+                            <p>الاهلي</p>
+                        </div>
+                   </div><!-- end match-->
+
+
+                   <div class="match">
+                    <div class="teamA">
+                        <img src="images/sc/alnasr.png" alt="" width="35px" height="35px">
+                        <p>الاهلي</p>
+                    </div>
+                    <div class="detals">
+                           <p>دوري ابطال افريقيا </p>
+                           <span>-</span> <span>-</span>
+                           <p class="border border-primary p-0">لم تبدا</p>
+                           <p>15:00</p>
+                    </div>
+                    <div class="teamB">
+                        <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                        <p>الاهلي</p>
+                    </div>
+               </div><!-- end match-->
+
+               <div class="match">
+                <div class="teamA">
+                    <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                    <p>الاهلي</p>
+                </div>
+                <div class="detals">
+                       <p>دوري ابطال افريقيا </p>
+                       <span>-</span> <span>-</span>
+                       <p class="border border-primary p-0">لم تبدا</p>
+                       <p>15:00</p>
+                </div>
+                <div class="teamB">
+                    <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                    <p>الاهلي</p>
+                </div>
+           </div><!-- end match-->
+
+
+           <div class="match">
+            <div class="teamA">
+                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                <p>الاهلي</p>
+            </div>
+            <div class="detals">
+                   <p>دوري ابطال افريقيا </p>
+                   <span>-</span> <span>-</span>
+                   <p class="border border-primary p-0">لم تبدا</p>
+                   <p>15:00</p>
+            </div>
+            <div class="teamB">
+                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                <p>الاهلي</p>
+            </div>
+       </div><!-- end match-->
+
+
+                     </div><!-- end matches-->
+               </div><!-- end main-match-->
+
+               <div  class="left" id="rightScroll" onclick="right()">❯</div>
+
+          </div><!-- end con-match-->
+
+    <div class="main-one">
+          <div class="right">
+                <div class="main-post img">
+                    <img class="img" src="images/news/lfr.jpg" alt="">
+                    <p class="post">دوري ابطال افريقيا </p>
+                    <h3>الاهلي ينتظر 7 فرق حسمت الصعود لربع نهائي دوري الابطال</h3>
+                </div><!-- end main-post-->
+                <div class="cards">                       
+                       <div class="card">
+                            <div class="img-card"> <img class="img" src="images/news/card1.jpg"> </div><!-- end img-card-->
+                             <div class="detals-card">
+                                <h5 >تصفيات كاس العالم-افريقيا</h5>
+                                <p>مصدر ليلا كوره : صلاح يصل القاهرة ..وينضم الاثنين لمعسكر المنتخب مع النني</p>
+                            </div><!-- end detals-card-->
+                       </div><!-- end card-->  
+                       <div class="card">
+                        <div class="img-card"> <img class="img" src="images/news/card2.jpg"> </div><!-- end img-card-->
+                         <div class="detals-card">
+                            <h5 >تصفيات كاس العالم-افريقيا </h5>
+                            <p>مصدر ليلا كوره : صلاح يصل القاهرة ..وينضم الاثنين لمعسكر المنتخب مع النني</p>
+                        </div><!-- end detals-card-->
+                       </div><!-- end card-->  
+                      <div class="card">
+                          <div class="img-card"> <img class="img" src="images/news/card3.jpg"> </div><!-- end img-card-->
+                         <div class="detals-card">
+                             <h5 >تصفيات كاس العالم-افريقيا</h5>
+                             <p>مصدر ليلا كوره : صلاح يصل القاهرة ..وينضم الاثنين لمعسكر المنتخب مع النني</p>
+                          </div><!-- end detals-card-->
+                       </div><!-- end card-->                     
+                       <div class="card">
+                        <div class="img-card"> <img class="img" src="images/news/card4.jpg"> </div><!-- end img-card-->
+                         <div class="detals-card">
+                            <h5 >تصفيات كاس العالم-افريقيا</h5>
+                            <p>مصدر ليلا كوره : صلاح يصل القاهرة ..وينضم الاثنين لمعسكر المنتخب مع النني</p>
+                        </div><!-- end detals-card-->
+                       </div><!-- end card-->                       
+                      <div class="card">
+                          <div class="img-card"> <img class="img" src="images/news/card5.jpg"> </div><!-- end img-card-->
+                         <div class="detals-card">
+                             <h5 >تصفيات كاس العالم-افريقيا</h5>
+                             <p>مصدر ليلا كوره : صلاح يصل القاهرة ..وينضم الاثنين لمعسكر المنتخب مع النني</p>
+                          </div><!-- end detals-card-->
+                       </div><!-- end card--> 
+                </div><!-- end cards-->
+          </div><!-- end right-->
+          <div class="left">
+                 <div class="servay ">
+                        <h3 >استطلاع يلاكورة</h3>
+                        <div class="question"><p>من يرافق صنداونز لربع نهائي دوري الابطال </p></div>     
+                        <div class="input"><input type="radio" name="servay" id="ahly" > <label for="ahly">الاهلي</label> </div>
+                        <div class="input"><input type="radio" name="servay" id="helal" > <label for="helal">الهلال</label> </div>
+                        <button class="btn btn-primary"> تصويت </button>
+                 </div><!-- end servay-->
+          </div><!-- end left-->
+    </div><!-- end main-one-->
+    <div class="section-title">
+        <a href="#" class="left"> المزيد <span>←</span> </a> 
+        <a href="#" class="right">الاخبار</a>
+    </div><!-- end section-title-->
+    <div class="news">
+         <div class="card-news">
+             <div class="img-card-news"> <img class="img" src="images/news/news1.jpg"> </div>
+             <div class="detals-news"> 
+                 <p class="post">تصفيات كاس العالم افريقيا</p>  
+                 <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                 <p class="date"> مارس 21 2022 | 04:10 م </p>
+            </div>
+         </div><!-- end card-->
+         <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news2.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 م </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news3.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news4.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news5.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news6.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news7.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news8.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news9.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news10.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news11.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+        <div class="card-news">
+            <div class="img-card-news"> <img class="img" src="images/news/news12.jpg"> </div>
+            <div class="detals-news"> 
+                <p class="post">تصفيات كاس العالم افريقيا</p>  
+                <h4>الطريق للمونديال..طارق السعيد يختار ليلا كوره الطريقة الافضل لتخطي السنغال</h4>
+                <p class="date"> مارس 21 2022 | 04:10 </p>
+           </div>
+        </div><!-- end card-->
+    </div><!--end news-->
+     
+    <div class="section-title">
+         <a href="" class="text-black fs-4"> احصائيات دوري we المصري </a>
+    </div><!-- end title-section-->
+
+         <div class="lega">
+              <div class="lega-card sc">
+                     <div class="bg-black text-white text-center">ترتيب الفرق</div>
+                     <div class="items">
+                          <div class="item">
+                               <div class="div1">
+                                     <div class="divImg"> <img class="img" src="images/sc/AlHilal.png"> </div>
+                                     <div class="namesc">الاهلي</div>
+                               </div><!-- end 1-->
+                               <div class="div2">
+                                     <div class="result"> 31 <br> نقطه</div>
+                               </div><!-- end  div2-->
+                                </div><!-- end item-->
+                                <div class="item">
+                                    <div class="div1">
+                                        <div class="divImg"> <img class="img" src="images/sc/AlHilal.png"> </div>
+                                        <div class="namesc">الاهلي</div>
+                                    </div><!-- end 1-->
+                                    <div class="div2">
+                                        <div class="result"> 31 <br> نقطه</div>
+                                    </div><!-- end  div2-->
+                            </div><!-- end item-->
+                            <div class="item">
+                                <div class="div1">
+                                    <div class="divImg"> <img class="img" src="images/sc/AlHilal.png"> </div>
+                                    <div class="namesc">الاهلي</div>
+                                </div><!-- end 1-->
+                                <div class="div2">
+                                    <div class="result"> 31 <br> نقطه</div>
+                                </div><!-- end  div2-->
+                        </div><!-- end item-->
+                     </div><!-- end items-->
+                     <div class="end-card"><a href="#" > كل الترتيب ← </a>     
+                     </div>
+              </div><!-- end card-->
+
+               <div class="lega-card gols">
+                     <div class="bg-black text-white text-center">الهدافون</div>
+                     <div class="items">
+                          <div class="item">
+                               <div class="div1">
+                                     <div class="divImg"> <img class="img" src="images/sc/mar.jpg"> </div>
+                                     <div class="namesc p-0">  مروان حمدي <br> <span>سموحه</span> </div>
+                               </div><!-- end 1-->
+                               <div class="div2">
+                                     <div class="result text-center"> 6 <br> اهداف</div>
+                               </div><!-- end  div2-->
+                                </div><!-- end item-->
+                                <div class="item">
+                                    <div class="div1">
+                                        <div class="divImg"> <img class="img" src="images/sc/mar.jpg"> </div>
+                                        <div class="namesc p-0">  مروان حمدي <br> <span>سموحه</span> </div>
+                                    </div><!-- end 1-->
+                                    <div class="div2">
+                                        <div class="result text-center">6<br> اهداف</div>
+                                    </div><!-- end  div2-->
+                            </div><!-- end item-->
+                            <div class="item">
+                                <div class="div1">
+                                    <div class="divImg"> <img class="img" src="images/sc/mar.jpg"> </div>
+                                    <div class="namesc p-0">  مروان حمدي <br> <span>سموحه</span> </div>
+                                </div><!-- end 1-->
+                                <div class="div2">
+                                    <div class="result text-center"> 6 <br> اهداف</div>
+                                </div><!-- end  div2-->
+                        </div><!-- end item-->
+                     </div><!-- end items-->
+                     <div class="end-card"><a href="#" > كل الهدافون ← </a>     
+                     </div>
+              </div><!-- end card-->
+                  
+
+              <div class="lega-card mat">
+
+                <div class="top bg-black text-white text-center ">المباريات القادمه</div>
+                  <div class="items">
+
+                      <div class="item">
+
+                            <div class="teamA">
+                                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                <p>الاهلي</p>
+                            </div>
+                            <div class="detals text-center">
+                                   <p class=" p-0 m-0">22/4/2022</p>
+                                   <p class="p-0 m-0">15:00</p>
+                            </div>
+                            <div class="teamB">
+                                <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                                <p>الاهلي</p>
+                            </div>
+                      </div>
+
+                      <div class="item">
+
+                        <div class="teamA">
+                            <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                            <p>الاهلي</p>
+                        </div>
+                        <div class="detals text-center">
+                               <p class=" p-0 m-0">22/4/2022</p>
+                               <p class="p-0 m-0">15:00</p>
+                        </div>
+                        <div class="teamB">
+                            <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                            <p>الاهلي</p>
+                        </div>
+                  </div>
+                  <div class="item">
+
+                    <div class="teamA">
+                        <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                        <p>الاهلي</p>
+                    </div>
+                    <div class="detals text-center">
+                           <p class=" p-0 m-0">22/4/2022</p>
+                           <p class="p-0 m-0">15:00</p>
+                    </div>
+                    <div class="teamB">
+                        <img src="images/sc/Liverpool2018_7_29_15_27.png" alt="" width="35px" height="35px">
+                        <p>الاهلي</p>
+                    </div>
+              </div>
+                  </div>
+                  <div class="end-card"><a href="#" > كل المباريات ←</a>     
+
+              </div><!-- end  lega-card -->
+
+         </div><!-- end lega-->
+    </div><!-- end container-->
+    </div>
+  <footer class="bg-black text-white ">
+      <div class="container- row justify-content-center column">
+           <div class="divImg  col-12 "> <img class=" img " src="images/logo.png"> </div>
+           <div class=" col-12 justify-content-center  d-flex"> 
+                    <div class="links">
+                        <a href="">المباريات</a>
+                        <a href="">الاخبار</a>
+                        <a href="">دوريات وبطولات</a>
+                        <a href="">مالتيميديا</a>
+                        <a href="">اخر الانتقالات</a>
+                        <a href="">المحترفون</a>
+                        <a href="" class="position-relative">مسابقه التوقعات
+                        </a>
+
+                    </div><!-- end links-->
+           </div><!-- end links-->
+      </div>
+  </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
+    

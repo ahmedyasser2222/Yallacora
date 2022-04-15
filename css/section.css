@@ -1,0 +1,103 @@
+.lega{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.lega-card{
+    width: 30%; 
+    height: max-content;
+}
+.lega-card .end-card {
+    background-color: #0277bd;
+    width: 100%;height: 25px;
+}
+.lega-card .end-card p{
+    float: left;
+    color: white;
+    font-size: large;
+    padding: 0px 10px;
+}
+/*====*/
+.items{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px #ddd solid;
+}
+.item{
+    width: 100%;
+    padding: 10px 5px  ;
+    height: max-content;
+    overflow: hidden;
+    border-bottom: 1px #ddd solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divImg{
+    position: relative;
+    width: 45px; height: 45px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+.div1 .namesc{
+    margin-right: 3px;
+}
+.div1 .namesc span{
+    font-size: large;
+    color: rgba(0,0,0,0.7);
+}
+.result{
+    background-color: #E8E8E8;
+    color: #0277BD; 
+}
+.end-card{
+    height: max-content;
+    text-align: end;
+}
+.end-card a:hover{
+    color: #ddd;
+}
+
+
+.gols .item{
+    padding: 5px 0;
+}
+.mat .items{
+    padding: 0;
+    height: 209px;
+   
+}
+ .mat .items  .item{
+     width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    padding-top:5px ;
+}
+.mat .items  .item .detals{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+ .mat .items .item div{
+      width: 25%;
+ }
+
+footer .divImg{
+    margin: 15px 0;
+    position: relative;
+    width: 300px;
+}
+
+
+
+
+
+
+
+

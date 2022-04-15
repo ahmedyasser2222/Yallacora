@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Cairo:wght@800&family=Maven+Pro:wght@400;700;800&family=Ramabhadra&family=Tajawal:wght@400;700&family=Ubuntu:wght@300&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,800;1,100;1,300&display=swap');
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;padding: 0;
+    
+}
+.container-{
+    width: 1010px;
+    margin: auto;
+    position: relative;
+}
+a{
+  text-decoration:none;
+  color: white;
+  padding: 5px;
+}
+.img {
+    position: absolute; 
+    width: 100%; height: 100%; 
+    top: 0; left: 0;
+    object-fit: cover;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f2f2f2;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 45px; 
+    z-index: 1;
+}
+.header .menu{
+    padding: 2px 2px 0 2px;
+    font-size: 20px;
+    background-color: #0277bd;
+}
+.header .menu a{
+
+   font-size: 30px;
+}
+.header .center-nav{
+    display: flex;
+    flex: 80%;
+}
+.header .social{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 10%; 
+}
+.header .social a{
+    font-size: 22px;
+}
+.links{
+    display: flex;
+}
+.links a{
+    padding: 12px;
+    font-size: 19px;
+}
+.fa-facebook-f:hover{
+    color: #4267b2;
+}
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+.fa-youtube:hover{
+    color: #f00f00;
+}
+.fa-instagram:hover{
+    color: #3897f0;
+}
+.search:hover{
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+/*=====con-match=======*/
+.con-matches{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px #1da1f2 solid;
+    border-radius: 10pt;
+    overflow: hidden;
+}
+.con-matches .right ,.con-matches .left{
+    flex: 1%;
+    height: 100%; 
+    background-color: #1da1f2;
+    text-align: center;
+    padding-top: 35px;
+    font-size: x-large;
+}
+.con-matches .main-match{
+    flex: 95%;
+    height: 100%;
+}
+.main-match{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-x: scroll ;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    -ms-overflow-style: none;
+}
+.main-match::-webkit-scrollbar{
+    display:none;
+}
+
+.main-match .matches{
+    height: 100%;
+    display: flex;
+    width: max-content;
+}
+.matches .match{
+    display: flex;
+    width: 325px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: black;
+    justify-content: space-around;
+    border-left:2px #f2f2f2 solid ;
+    background-color: white;
+}
+.matches .match .detals{
+   text-align: center;
+}
+.matches p , .matches  span{
+    color: black;
+     margin: 0;
+}
+.matches .match div:not(.detals){
+    align-self: center;
+}
+.matches .match div:not(.detals) p{
+     padding-top: 3px;
+}
+.matches .match span{
+    margin: 0 10px;
+}
+#rightScroll{background-color: #1da1f2 ; cursor: default;}
+#leftScroll{background-color: #C2D9E7 ; cursor: default;}
+/*====== main-one =====*/
+.main-one{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: max-content;
+}
+.main-one .right{
+    flex: 70%; margin-left: 1%;
+}
+.main-one .left{
+    flex: 28%; margin-right: 1%;
+}
+.main-one .main-post{
+    width: 100%; height: 450px;
+    position: relative; 
+    background-color: black;
+}
+.main-one .main-post img{
+    opacity: 0.5;
+}
+.top-set{
+    border: 1px black solid;
+}
+.post{
+    position: absolute;
+    top: 0; right: 0;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+.main-one .main-post h3{
+    position: absolute;
+    bottom: 0; right: 0;
+    padding: 3px 10px;
+    color: white;
+}
+.main-one .servay{
+     width: 100%; height: 260px;
+     border-top: 5px #1da1f2 solid;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     padding: 10px; 
+     font-family: 'Almarai', sans-serif;
+     background-color: white;
+}
+.main-one .servay h3{ font-size: 20px;}
+.main-one .servay div:not(.input){ margin: 15px 0 ; padding: 5px; background-color: #f2f2f2;}
+.main-one .servay .input{display: block; margin: 5px;}
+.main-one .servay button{ float: left; margin: 10px 0;}
+/*====== cards =====*/
+.cards{
+    padding: 25px 0;
+    height: max-content;
+}
+.cards .card{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   height: 100px;
+   border: 1px #ddd solid;
+   overflow: hidden;
+   cursor: pointer;
+   margin-bottom: 15px;
+}
+.cards .img-card{
+   position: relative;
+   flex: 20%;
+   height: 100%;
+}
+.cards .detals-card{
+   flex: 75%; height: 100%;
+   padding: 8px ;
+}
+.cards .detals-card p{
+     font-size: 20px; 
+     padding: 0; margin: 0;
+}
+.cards .detals-card h5{
+    color: #0277bd;
+}
+/*====== end cards====*/
+/*===== title =====*/
+.section-title{
+    background-color: #e8e8e8;
+    border-right: 5px black solid;
+    height: 35px;  margin: 0 0 20px 0;
+    overflow: hidden;
+}
+.section-title a{
+    font-size: 20px;
+}
+.section-title .left{
+    float: left;
+    background-color: #0277bd;
+    padding: 5px;
+}
+.section-title .right{
+    float: right; 
+    color: black;
+}
+.section-title .left:hover{
+      transform: 0.5s;
+      color: white;
+}
+/*==== cards-news ======*/
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+}
+.card-news{
+    width: 30%; height: 300px;
+    position: relative;
+    border: 1px #ddd solid;
+    background-color: white;
+    margin-top: 20px;
+}
+.card-news .img-card-news{
+    position: relative;
+    width: 100%; height: 190px;
+}
+.card-news .detals-news{
+    height: max-content;
+    padding: 10px;
+}
+.card-news .detals-news h4{
+    font-size: 19px;
+}
+.card-news .date{
+    padding: 0; margin: 0;
+    position: absolute;
+    bottom: 0; right: 0;
+    width: max-content;
+    padding: 10px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
