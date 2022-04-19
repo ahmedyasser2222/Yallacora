@@ -1,7 +1,11 @@
 @media screen and (max-width: 1051px) {
-  .links a {
-    font-size: small;
-  }
+  .links{
+    width: 80%;
+}
+.links a {
+    padding: 10px;
+  font-size: medium;
+}
   .container- {
     width: 950px;
   }
@@ -37,7 +41,7 @@
   .links {
     display: none;
   }
-  nav .center {
+  .nav .center {
     display: flex;
     justify-content: center;
   }
@@ -61,6 +65,8 @@
   .main-one{
     width: 95%;
   }
+  .social a:not(.search){display: none;}
+
 
   .con-matches {
     width: 450px;
@@ -73,4 +79,18 @@
     width: 60%;
     margin: 10px;
   }
+  .navv{
+    top: 0;
+    left: 0;
+  } 
+}
+@media screen and (max-width: 450px) {
+ .nav{height: 7%; width: 100%; margin-right: -50px;}
+.social a:not(.search){display: none;}
+  .search{font-size: larger;padding: 5px 0;}
+ 
+}
+@media screen and (max-width: 400px) {
+  .nav{height: 7%; width: 100%; margin-right: -100px;}
+
 }
